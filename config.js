@@ -62,6 +62,7 @@ module.exports = figgyPudding({
   'otp': {},
   'prefer-offline': {},
   'prefer-online': {},
+  'cache-policy': {},
   'projectScope': {},
   'project-scope': 'projectScope',
   'Promise': {default: () => Promise},
