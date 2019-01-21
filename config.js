@@ -63,6 +63,7 @@ module.exports = figgyPudding({
   'prefer-offline': {},
   'prefer-online': {},
   'cache-policy': {},
+  'cache-key': {},
   'projectScope': {},
   'project-scope': 'projectScope',
   'Promise': {default: () => Promise},

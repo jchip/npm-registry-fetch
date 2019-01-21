@@ -92,6 +92,7 @@ function regFetch (uri, opts) {
     Promise: opts.Promise,
     proxy: opts['https-proxy'] || opts.proxy,
     cachePolicy: opts['cache-policy'] || "default",
+    cacheKey: opts['cache-key'],
     referer: opts.refer,
     retry: opts.retry != null ? opts.retry : {
       retries: opts['fetch-retries'],
